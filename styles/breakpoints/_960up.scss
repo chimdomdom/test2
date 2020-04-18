@@ -1,0 +1,67 @@
+/******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+
+.font-sm {
+  font-size: 16px;
+}
+.font-md {
+  font-size: 19px;
+}
+.font-lr {
+  font-size: 23px;
+}
+.font-lg {
+  font-size: 36px;
+}
+
+.mb-lg {
+  margin-bottom: 150px !important;
+}
+
+.pb-lg {
+  padding-bottom: 150px !important;
+}
+
+.header{
+  &__nav{
+    display: block;
+  }
+}
+
+.travel {
+  &__img {
+    flex-basis: 47%;
+    height: 400px;
+  }
+  &__description {
+    margin-bottom: 40px;
+  }
+  &__title {
+    &::before {
+      display: block;
+    }
+  }
+}
+
+.pleace {
+  &__item {
+    flex-basis: 25%;
+  }
+  &__img {
+    height: 335px;
+  }
+}
+
+.mobile-menu{
+  &__btn{
+    display: none;
+  }
+}
+
+.swiper-slide{
+  box-shadow: 0 8px 40px -10px $cBlack;
+}
+
